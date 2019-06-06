@@ -1,10 +1,19 @@
 {
     "name": "jenali/timer",
+    "description": "Provide Timer funcionality",
+    "keywords": ["timer"],
+    "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Evhenii Yolkin",
             "email": "e.v.yolkin@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Jenali\\Timer\\": "src/"
+        }
+    },
     "require": {}
 }
